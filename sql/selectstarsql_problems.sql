@@ -5,7 +5,7 @@
 
 -- PROBLEM 1
 
- WITH pairs AS
+WITH pairs AS
 (
 SELECT DISTINCT sponsor_name, cosponsor_name
 FROM cosponsors
